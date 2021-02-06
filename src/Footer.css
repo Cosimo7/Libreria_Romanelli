@@ -1,0 +1,43 @@
+.footer{
+   width: 100%;
+   bottom: 0;
+   background: linear-gradient(to left,#c8a871, #ffffc6);
+   display: flex;
+   align-items: center;
+   font-family: 'Roboto';
+}
+
+.footer__description{
+  flex-direction: column;
+  
+}
+
+.footer__uniLogo{
+   width:15vh;
+   margin: 30px;
+}
+
+.footer__myName{
+   font-size: 20px;
+}
+
+.footer__year{
+   margin-top: 90px;
+   font-size: small;
+   font-weight: bold;
+   text-decoration: underline;
+}
+
+.footer__outlook{
+   margin-left: 120vh;
+   display: flex;
+}
+
+.footer__outlookMail{
+   margin-top: 27px;
+   margin-right: 20px;
+}
+
+.footer__outlookImg{
+   width: 8vh;
+}

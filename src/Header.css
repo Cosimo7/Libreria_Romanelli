@@ -1,0 +1,128 @@
+.header {
+    background: linear-gradient(to left, #ffffc6, #c8a871);
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    top: 0;
+    object-fit: contain;
+   
+}
+
+.header__logo {
+    object-fit: contain;
+    width: 300px;
+    margin-top: 15px;
+    border-color: black;
+}
+
+.header__searchInput{
+    display: flex;
+    flex: 1;
+}
+
+.header__searchBar{
+    height: 40px ;
+    border: 2px solid #494949 !important;
+    width: 80vh;
+    font-family: 'Roboto';
+    font-size: large;
+    
+}
+
+.header__searchIcon{
+    border: 2px solid #494949 !important;
+    margin-left:10px;
+    margin-top:9px    
+}
+
+
+.header__nav {
+    display: flex;
+
+}
+
+.header__dropdown {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    font-size: large;
+    margin-left:800px;
+    margin-top:10px;
+    
+}
+
+.header__dropdown > :hover{
+    color:rgb(148, 137, 117);
+    transition: 0.5s;
+}
+
+.header__dropdown > :not(:hover){
+    transition: 0.5s;
+}
+
+
+
+.header__dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: rgb(148, 137, 117);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 30px 20px;
+}
+  
+
+.header__dropdown:hover .header__dropdownContent{
+    display: block;
+}
+
+.header__dropdownItem{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    font-size:x-large;
+    padding:20px;
+}
+
+.header__dropdownContent > :hover{
+    color:rgb(189, 186, 180);
+    transition: 0.5s;
+}
+
+
+
+
+.header__link{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    font-size: large;
+    padding-left: 20px;
+    padding-top:10px;
+
+}
+
+.header__link > :hover {
+    cursor: pointer;
+    color:rgb(148, 137, 117);
+    transition: 0.5s;
+    left:-9999em; 
+    top:-9999em;
+}
+
+.header__link > :not(:hover) {
+    transition: 0.5s;
+    left:-9999em; 
+    top:-9999em;
+}
+
+
+
+
+.header__optionCart {
+    display: flex;
+}

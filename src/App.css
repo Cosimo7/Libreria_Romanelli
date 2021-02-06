@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+}
+
+
+.background__image{
+ 
+  background-image: url("banner.jpg");
+  background-attachment: fixed;
+  height: 100vh;
+  overflow: auto;
+  object-fit: contain;
+  
+}
+
+
+

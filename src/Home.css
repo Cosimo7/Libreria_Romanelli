@@ -1,0 +1,15 @@
+
+.home__row {
+display: flex;
+}
+
+.home > h1{
+    display: flex;
+    margin-top: 30px;
+    font-family: 'Roboto';
+    background:rgba(229, 211, 179, 0.9);;
+    padding: 29px;
+    margin-right:20px;
+    box-shadow: 2px 2px 5px #ffe6c5;
+    font-size:40px;
+}

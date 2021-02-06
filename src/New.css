@@ -1,0 +1,10 @@
+.home > h1{
+    display: flex;
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-size: 40px;
+    background:rgba(229, 211, 179, 0.9);;
+    padding: 20px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 5px #ffe6c5;
+}
