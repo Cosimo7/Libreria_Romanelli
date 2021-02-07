@@ -57,33 +57,33 @@ function App() {
 
           <Route path="/horror">
           <div className = "background__image">  
-          <Header/>
-          <Horror/>
-          <Footer/>
+            <Header/>
+            <Horror/>
+            <Footer/>
           </div>
           </Route>
 
           <Route path="/fantasy">
           <div className = "background__image">  
-          <Header/>
-          <Fantasy/>
-          <Footer/>  
+            <Header/>
+            <Fantasy/>
+            <Footer/>  
           </div>
           </Route>
 
           <Route path="/thriller">
           <div className = "background__image">  
-          <Header/>
-          <Thriller/>
-          <Footer/>
+            <Header/>
+            <Thriller/>
+            <Footer/>
           </div>
           </Route>
 
           <Route path="/new">
           <div className = "background__image">  
-          <Header/>
-          <New/>
-          <Footer/>
+            <Header/>
+            <New/>
+            <Footer/>
           </div>
           </Route>
           
