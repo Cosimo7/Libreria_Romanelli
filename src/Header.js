@@ -9,7 +9,6 @@ import { auth } from './firebase';
 
 
 
-
 function Header() {
     
     const [{ cart, user }] = useStateValue();
@@ -34,10 +33,7 @@ function Header() {
            
 
             
-                
-                
-         
-            <div className="header__dropdown">
+             <div className="header__dropdown">
                 <span> Genere </span>
                     <div className="header__dropdownContent">
                         <Link to="/horror"><p className="header__dropdownItem">Horror</p></Link>
