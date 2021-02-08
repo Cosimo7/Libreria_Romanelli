@@ -13,7 +13,6 @@ function Header() {
     
     const [{ cart, user }] = useStateValue();
     
-    
     const login = () => {
         if(user){
             auth.signOut();
@@ -31,9 +30,7 @@ function Header() {
                 />
             </Link>
            
-
-            
-             <div className="header__dropdown">
+            <div className="header__dropdown">
                 <span> Genere </span>
                     <div className="header__dropdownContent">
                         <Link to="/horror"><p className="header__dropdownItem">Horror</p></Link>
@@ -42,15 +39,11 @@ function Header() {
                     </div>
             </div>
                 
-
-                
             <Link to="/new" className="header__link">
                 <div>
                     <span>Novità</span>
                 </div>
             </Link>
-                
-                
                 
             <Link to={!user && "/login"} className="header__link">
                 <div onClick={login} className="header__option">
@@ -58,16 +51,12 @@ function Header() {
                 </div>
             </Link>
 
-               
-
             <Link to="/checkout" className="header__link">
                 <div className=" header__optionCart">   {/* inserisco icona carrello con contatore del numero di acquisti */}
-                    <ShoppingCart />
+                    <ShoppingCart/>
                     <span> {cart.length} </span>       {/* richiamo il carrello da reducer */}
                 </div>
             </Link>
-       
-            
         </nav>
     )
 }
